@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Pro</title>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="sobreMin.html">
-    <link rel="stylesheet" href="portifolio.html">
-    <link rel="stylesheet" href="formacao.html">
+<!DOCTYPE html> <!--definição da Linguagem-->
+<html lang="pt-br"> <!--idioma da linguagem-->
+<head> <!--cabeçalho-->
+    <meta charset="UTF-8"> <!--Formato de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--configuração da pagina p/ dispositivos-->
+    <title>Portifólio Pro</title> <!--titulo da Pagina-->
+    <link rel="stylesheet" href="css/index.css"> <!-- link que faz a ligação entre a pagina index.html e a index.css-->
+    
 </head>
 <body>
     
