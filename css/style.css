@@ -1,33 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202e3b;
+  font-family: "oxygen", sans-serif;
  
+}
   /* Header */
 
   header {
-    background-color: #1c80e6;
-
+    background-color: #0c1b2b;
+    
+    
   }
 
   .container {
      max-width: 75rem;
-     margin-inline: auto;
-     padding-inline: 1rem;
+     padding-inline: 7rem;
+     margin-left: -10rem;
+     margin-top: 4rem;
+     height: 5rem;
+     
   }
-  
+
   .navbar {
      display: flex;
      align-items: center;
      justify-content: space-between;
      padding-block: 1.5rem;
-
+     font-size: medium;
   }
 
   .nav-list{
     position: relative;
     display: flex;
     list-style: none;
+
   }
 
   .nav-item {
@@ -38,15 +49,19 @@
 
   .nav-link {
     text-transform: uppercase;
-
+    color: #0cb3b3;
+    font: normal normal bold 15px/25px oxygen;
+    
+    
+   
   }
 
   .active {
     position: absolute;
-    bottom: -1rem;
+    bottom: 0rem;
     height: 2px;
     width: 10rem;
-    background-color: #1e5ea0;
+    background-color: #d3640a;
     transition: transform 0.25s;
 
   }
