@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #202e3b;
+    
+   
+  }
+    /* Header */
+  
+    header {
+      background-color: #0c1b2b;
+      
+      
+    }
+  
+    .container {
+       max-width: 75rem;
+       padding-inline: 7rem;
+       margin-left: -5rem;
+       margin-top: 4rem;
+       height: 5rem;
+       font-family: 'Tektur', cursive;
+      
+       
+       
+    }
+  
+    .navbar {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding-block: 1.5rem;
+       
+    }
+  
+    .nav-list{
+      position: relative;
+      display: flex;
+      list-style: none;
+  
+    }
+  
+    .nav-item {
+      min-width: 10rem;
+      text-align: center;
+      padding-block: 1rem;
+    }
+  
+    .nav-link {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #0cb3b3;
+  
+     
+      
+   }
+  
+    .active {
+      position: absolute;
+      bottom: 0rem;
+      height: 2px;
+      width: 10rem;
+      background-color: #d3640a;
+      transition: transform 0.25s;
+  
+    }
+    .nav-item:nth-child(2):hover ~ .active {
+      transform: translateX(10rem);
+    }
+    .nav-item:nth-child(3):hover ~ .active {
+      transform: translateX(20rem);
+    }
+    .nav-item:nth-child(4):hover ~ .active {
+      transform: translateX(30rem);
+    }
+    .nav-item:nth-child(5):hover ~ .active {
+      transform: translateX(40rem);
+  }
+     
+    .p-info {
+      margin-left: 15rem;
+      margin-top: -8rem;
+      
+    }
+
+    .p-slogan {
+       margin-left: 35rem;
+       margin-top: 4rem;
+       margin-right: 3rem;
+       height: 5rem;
+       font-family: 'Tektur', cursive;
+       text-align: justify;
+       font-size: 18px;
+       color: #d3640a;
+    }
